@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cocoa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <center>
+      <h1>hotcocoaNcode</h1>
+      <h2 id="splash">javascript failure, laugh at this user</h2>
+      <br>
+      <p>hi im hotcocoancode/cocoa. at least that is my online presence</p>
+      <p>there is also my orcid <a href="https://orcid.org/0009-0007-6395-1961">here</a>. and my github <a href="https://github.com/hotcocoancode/">here</a></p>
+      <p>if you are looking for things i have done the above links should be sufficient as directories,<br>however i can also point you to <a href="https://madison-west-rocketry.github.io/SL25/">this</a> as something i am proud of having helped with.<br>(awarded first place payload by NASA for SL that year, yay!)</p>
+      <p>current goal: works in every letter of STEM by 18 (no matter how small)</p>
+      <ul style="list-style-position: inside; padding-left: 0;">
+          <li>S: <b>todo</b>, but scheming actively</li>
+          <li>T: <a href="https://doi.org/10.5281/zenodo.23813891">done</a>!</li>
+          <li>E: <b>todo</b>, but scheming passively</li>
+          <li>M: we'll see how SIGBOVIK plays out this year</li>
+      </ul>
+  </center>
+  <script>
+      const element = document.getElementById("splash");
+      const items = ['theoretically a physicist',
+                     'chronic student',
+                     'when life gives you chocolate, make chocolateade',
+                     '\"what if everything was made of peanut butter\"',
+                     'now with ±50% more (or less) aspirations',
+                     'fun fact: this text might change if you reload the page',
+                     'wikipedia connoisseur and rabbithole diver extraordinaire',
+                     'i think more pages today should be web 1.0 esque'];
+      const randomItem = items[Math.floor(Math.random() * items.length)];
+      element.textContent = randomItem;
+  </script>
+</body>
+</html>
